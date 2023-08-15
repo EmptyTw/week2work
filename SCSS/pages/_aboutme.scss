@@ -1,0 +1,28 @@
+.aboutme{
+    
+    color: black;
+    padding: 160px 0;
+    align-items: center;
+    &-left{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 46px 0;
+        
+        width: 636px;
+        //padding: 20px 0;
+    }
+    &-card{
+        width:272px;
+        height: 116px;       
+        padding: 16px;
+        border: 1px solid #E3E3E3;
+        margin: 0 12px 12px 0;
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    }
+    &-right{
+        width: 526px;
+        h2{
+            margin-bottom: 36px;
+        }
+    }
+}

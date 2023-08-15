@@ -1,0 +1,62 @@
+@import '../SCSS/base/reset';
+@import '../SCSS/base/default';
+@import '../SCSS/pages/aboutme';
+@import '../SCSS/pages/project';
+@import '../SCSS/pages/footer';
+
+
+
+.text-white{
+    color: white;
+}
+.text-black{
+    color: black;
+}
+.text-right{
+    text-align: right;
+}
+.text-green-163 {
+    color: #00ffa3;
+}
+
+.ml-4{
+    margin-left: 16px;
+}
+
+
+
+.header{
+    height: 992px;
+    &-people {
+        padding: 72px 0;        
+        height: 848px;
+    }
+    &-title{
+        width: calc(50% - 24px);
+    }
+}
+.introduction{
+    background: #15161D;
+    background-image: url('../images/background-img.png');
+    height: 920px;
+    &-left{
+        width: 526px;
+        padding-top: 160px;
+    }
+    &-right{        
+        padding-top: 160px;
+        img {
+            margin-right: 24px;
+        }
+    }
+    h3 {
+        padding-top: 36px;
+    }
+    &-r{
+        height: 98px;
+        width: 32px;
+    }
+}
+
+
+

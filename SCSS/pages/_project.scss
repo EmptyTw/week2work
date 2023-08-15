@@ -1,0 +1,40 @@
+.project{
+    padding: 160px 0;
+    color: black;
+    &-title{
+        display: flex;
+        justify-content: flex-end;
+        h2{
+            width: 746px;
+            
+        }
+        margin-bottom: 16px;
+    }
+    .pleft{
+        width: 416px;
+        height: 530px;
+        flex-shrink: 0;
+        margin-right: 24px;
+    }
+    .ptop-left{
+        width: 196px;
+        height: 196px;
+        margin-right: 24px;
+        margin-bottom: 28px;
+    }
+    .ptop-right{
+        width: 636px;
+        p{
+            margin-bottom: 76px;
+        }
+    }
+    .img1{
+        width: 306px;
+        margin-right: 24px;
+    }
+    .pbottom img{
+        
+        height: 306px;
+        flex-shrink: 0;
+    }
+}

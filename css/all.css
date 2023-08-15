@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  block-size: border-box;
+}
+
+html, body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h1 {
+  font-size: 128px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.contact-link {
+  width: 162px;
+  margin-right: 20px;
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+}
+.contact-link:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-liner {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.bg-neutral-227 {
+  background-color: #e3e3e3;
+}
+
+.menu {
+  height: 88px;
+  align-items: center;
+}
+.menu-item {
+  padding: 0 8px;
+}
+
+.aboutme {
+  color: black;
+  padding: 160px 0;
+  align-items: center;
+}
+.aboutme-left {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 46px 0;
+  width: 636px;
+}
+.aboutme-card {
+  width: 272px;
+  height: 116px;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+  margin: 0 12px 12px 0;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.aboutme-right {
+  width: 526px;
+}
+.aboutme-right h2 {
+  margin-bottom: 36px;
+}
+
+.project {
+  padding: 160px 0;
+  color: black;
+}
+.project-title {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+.project-title h2 {
+  width: 746px;
+}
+.project .pleft {
+  width: 416px;
+  height: 530px;
+  flex-shrink: 0;
+  margin-right: 24px;
+}
+.project .ptop-left {
+  width: 196px;
+  height: 196px;
+  margin-right: 24px;
+  margin-bottom: 28px;
+}
+.project .ptop-right {
+  width: 636px;
+}
+.project .ptop-right p {
+  margin-bottom: 76px;
+}
+.project .img1 {
+  width: 306px;
+  margin-right: 24px;
+}
+.project .pbottom img {
+  height: 306px;
+  flex-shrink: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-green-163 {
+  color: #00ffa3;
+}
+
+.ml-4 {
+  margin-left: 16px;
+}
+
+.header {
+  height: 992px;
+}
+.header-people {
+  padding: 72px 0;
+  height: 848px;
+}
+.header-title {
+  width: calc(50% - 24px);
+}
+
+.introduction {
+  background: #15161D;
+  background-image: url("../images/background-img.png");
+  height: 920px;
+}
+.introduction-left {
+  width: 526px;
+  padding-top: 160px;
+}
+.introduction-right {
+  padding-top: 160px;
+}
+.introduction-right img {
+  margin-right: 24px;
+}
+.introduction h3 {
+  padding-top: 36px;
+}
+.introduction-r {
+  height: 98px;
+  width: 32px;
+}/*# sourceMappingURL=all.css.map */
