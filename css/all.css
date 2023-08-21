@@ -90,6 +90,10 @@ h3 {
   font-size: 24px;
 }
 
+.f24 {
+  font-size: 24px;
+}
+
 .f20 {
   font-size: 20px;
 }
@@ -202,7 +206,7 @@ h3 {
   color: black;
 }
 .project-title {
-  display: flex;
+  margin-left: auto;
   justify-content: flex-end;
   margin-bottom: 16px;
 }
@@ -266,7 +270,6 @@ h3 {
 }
 .header-people {
   padding: 72px 0;
-  height: 848px;
 }
 .header-title {
   width: calc(50% - 24px);
